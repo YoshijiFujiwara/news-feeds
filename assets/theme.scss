@@ -1,0 +1,25 @@
+@import "~vue-material/dist/theme/engine";
+
+@include md-register-theme('default', (
+  primary: md-get-palette-color(deeporange, 400),
+  accent: md-get-palette-color(blue, A400),
+  theme: light
+))
+
+@import "~vue-material/dist/theme/all";
+
+// ページ遷移
+.page-enter,
+.page-leave-to {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  -o-transform: translateY(-30px);
+  transform: translateY(-30px);
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.25s;
+}
