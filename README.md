@@ -1,4 +1,5 @@
 # news-feed
+![トップ](https://github.com/YoshijiFujiwara/news-feed/blob/images/screenshot.png)
 ニュースフィードSPAです。 公開URL:https://nuxt-news-yoshiji.herokuapp.com/  
 使用した主な技術は、Nuxt.jsとFirestoreです。以下の点にフィーチャーしました。
 * Firebaseのログイン、ユーザー登録機能を活用
