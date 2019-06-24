@@ -12,7 +12,12 @@
 ## 動作確認
 git cloneした後、
 ```
+cd news-feeds
 yarn install
+cp nuxt.config.sample.js nuxt.config.js
+```
+nuxt.config.jsのenv{}内を、自分のAPIキーを設定したあと
+```
 yarn run dev
 ```
 localhost:3000で確認できます。
